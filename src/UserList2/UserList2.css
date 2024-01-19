@@ -1,0 +1,17 @@
+.card3{
+    border: black dotted 2px;
+    background-color: rgb(181, 233, 176);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.light-theme {
+    background-color: white;
+    color: black;
+}
+.dark-theme {
+    background-color: black;
+    color: white;
+}

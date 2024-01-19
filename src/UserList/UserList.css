@@ -1,0 +1,8 @@
+.card2{
+    border: black dashed 2px;
+    background-color: brown;
+    color: aliceblue;
+    margin: 10px;
+    width: 400px;
+    text-align: center;
+}

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './UserList.css'
 
 const UserList = () => {
@@ -8,6 +9,7 @@ const UserList = () => {
         {imagen: "https://dkp-it.com.br/wp-content/uploads/2019/03/blog-oracle.jpg", alt: "Luis",nombre: "Luis Martínez", fechanac: "03-11-1998", descripcion: "Administrativa", empresa: "Oracle"},
     ];
 
+    const [className, setClassName] = useState(false);
     const getInfoU = () => {
         const list = [];
         for (const user of users) {            
@@ -25,6 +27,8 @@ const UserList = () => {
     return (
         <>
             {getInfoU()}
+
+            <button></button>
         </>
     )
 }

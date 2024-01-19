@@ -1,10 +1,11 @@
 .App {
-  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 h1{
   text-decoration: underline;
-  color: darkgreen;
+  color:purple;
 }

@@ -12,7 +12,7 @@ const TabMenu = ({tabs}) => {
                         className={activeTab === tab.id ? 'active' : ''} 
                         onClick={() => setTab(tab.id)}
                     >
-                        {tab.titulo}
+                        <strong>{tab.titulo}</strong>
                     </button>)
                 })}
             </div>

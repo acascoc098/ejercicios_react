@@ -7,6 +7,7 @@
   background-color: lavender;
   padding: 10px;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .body {

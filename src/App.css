@@ -3,9 +3,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color:powderblue;
 }
 
 h1{
   text-decoration: underline;
-  color:purple;
+  color:honeydew;
 }

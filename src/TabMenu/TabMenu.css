@@ -1,0 +1,32 @@
+.TabMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.titulo button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.titulo button.active {
+  background-color: #ccc;
+}
+
+.titulo button:not(:last-child) {
+    border-right: none;
+}
+
+.contenido {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+  

@@ -1,9 +1,17 @@
 //import logo from './logo.svg';
 import './App.css';
+import TabMenu from './TabMenu/TabMenu';
 import UseCard from './UserCard/UserCard';
 import UserList from './UserList/UserList';
 
 function App() {
+
+  const tabs = [
+    {id: 1, titulo: 'Módulo', contenido: "<p>Desarrollo de Interfaces</p>"},
+    {id: 2, titulo: 'Centro', contenido: "<p>IES Virgen del Carmen</p>"},
+    {id: 3, titulo: 'Autora', contenido: "<p>Andrea Castilla Cocera</p>"}
+  ]
+
   return (
     <div className="App">
       <h1>EJERCICIO 1</h1><br></br>
@@ -21,6 +29,11 @@ function App() {
       <h1>EJERCICIO 2</h1>
       <br></br>
       <UserList/>
+
+      <br></br>
+      <h1>EJERCICIO 4</h1>
+      <br></br>
+      <TabMenu tabs={tabs}/>
     </div>
   );}
 

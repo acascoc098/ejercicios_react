@@ -1,0 +1,16 @@
+.item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  background-color: lavender;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.body {
+  padding: 10px;
+  background-color: lightgrey;
+}
+  

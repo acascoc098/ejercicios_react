@@ -1,4 +1,5 @@
 //import logo from './logo.svg';
+import AccordionGroup from './AccordionGroup/AccordionGroup';
 import './App.css';
 import TabMenu from './TabMenu/TabMenu';
 import UseCard from './UserCard/UserCard';
@@ -10,6 +11,14 @@ function App() {
     {id: 1, titulo: 'Módulo', contenido: "<p>Desarrollo de Interfaces</p>"},
     {id: 2, titulo: 'Centro', contenido: "<p>IES Virgen del Carmen</p>"},
     {id: 3, titulo: 'Autora', contenido: "<p>Andrea Castilla Cocera</p>"}
+  ]
+
+  //const item1 = {titulo: "Primer intento"}
+
+  const items = [
+    {id: 1, titulo: 'Módulo', contenido: "Desarrollo de Interfaces"},
+    {id: 2, titulo: 'Centro', contenido: "IES Virgen del Carmen"},
+    {id: 3, titulo: 'Autora', contenido: "Andrea Castilla Cocera"}
   ]
 
   return (
@@ -34,6 +43,11 @@ function App() {
       <h1>EJERCICIO 4</h1>
       <br></br>
       <TabMenu tabs={tabs}/>
+
+      <br></br>
+      <h1>EJERCICIO 5-6</h1>
+      <br></br>
+      <AccordionGroup items={items}/>
     </div>
   );}
 

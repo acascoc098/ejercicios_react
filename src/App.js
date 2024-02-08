@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import AccordionGroup from './AccordionGroup/AccordionGroup';
 import './App.css';
+import ProgressBar from './ProgressBar/ProgressBar';
 import TabMenu from './TabMenu/TabMenu';
 import UseCard from './UserCard/UserCard';
 import UserList from './UserList/UserList';
@@ -48,6 +49,12 @@ function App() {
       <h1>EJERCICIO 5-6</h1>
       <br></br>
       <AccordionGroup items={items}/>
+
+      <br></br>
+      <h1>EJERCICIO 7</h1>
+      <br></br>
+      <ProgressBar value={22} max={100}/>
+      
     </div>
   );}
 
